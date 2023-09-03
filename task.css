@@ -1,0 +1,41 @@
+body {
+    background-color: hsl(0, 0%, 10%);
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.list-group-item {
+    transition: all 0.3s;
+}
+
+.list-group-item:hover {
+    background-color: #f8f9fa;
+}
+
+.list-group-item.completed {
+    text-decoration: line-through;
+    color: #adb5bd;
+}
+
+.list-group-item.low {
+    background-color: #d4edda; 
+}
+
+.list-group-item.medium {
+    background-color: #ffeeba; 
+}
+
+.list-group-item.high {
+    background-color: #f8d7da; 
+}
+label[for="prioritySelect"] {
+    padding-top: 7px;  
+    padding-bottom: 5px;  
+    padding-left: 9px
+}
